@@ -9,10 +9,10 @@
    */
   class HelloWorld extends HTMLElement {
     /**
-     * Class constructor. Must exist must call super();
+     * Class constructor.
      */
     constructor() {
-      super();
+      super() // Must exist must call super().
       // Optional ability to attach shadow DOM. I always recommend doing this.
       // Shadow DOM
       this.attachShadow({mode: 'open'})
